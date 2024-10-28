@@ -7,3 +7,8 @@ function position(letter) {
 }
 
 // console.log( position('c') ) // Position of alphabet: 3
+// Explanation:
+
+// letter.charCodeAt(0) gives the ASCII (character) code of the letter.
+// Subtracting 'a'.charCodeAt(0) aligns the code to zero-based indexing (i.e., 'a' to 0, 'b' to 1, and so on).
+// Adding 1 adjusts it to a one-based position in the alphabet.
